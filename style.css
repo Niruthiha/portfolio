@@ -220,7 +220,14 @@ section h2::before {
   white-space: nowrap;
 }
 .pub-tag-c { color: var(--accent-warm); }
-.pub-tag-p { color: var(--muted); }
+.pub-tag-pp { color: var(--muted); }
+.pub-legend {
+  margin: 0 0 1.25rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.pub-legend .pub-tag { margin-left: 0.15rem; }
+.pub-legend .pub-tag:first-child { margin-left: 0; }
 .pub-list .authors { color: var(--fg); }
 .pub-list .pub-title {
   font-weight: 700;
